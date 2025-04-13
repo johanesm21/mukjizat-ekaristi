@@ -29,26 +29,27 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.github-follow-button {
-  display: inline-flex;
+.header-github-link {
+  display: flex;
   align-items: center;
-  background-color: #f6f8fa;
-  border: 1px solid #d0d7de;
-  border-radius: 6px;
-  padding: 6px 12px;
-  color: #24292f;
-  font-weight: 500;
-  font-family: 'Segoe UI', Roboto, sans-serif;
-  font-size: 14px;
+  align-content: center;
+  justify-content: center;
+  border: var(--ifm-button-border-width) solid black;
+  padding: calc(
+    var(--ifm-button-padding-vertical) * var(--ifm-button-size-multiplier)
+  )
+  calc(
+    var(--ifm-button-padding-horizontal) * var(--ifm-button-size-multiplier)
+  );
+  background-color: white;
+  border-radius: var(--ifm-button-border-radius);
   text-decoration: none;
-  transition: background-color 0.2s ease;
+  color: #1c1e21;
+  font-weight: var(--ifm-font-weight-semibold);
+  transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
 }
 
-.github-follow-button:hover {
-  background-color: #eaeef2;
+.header-github-link:hover {
+  color: #2e8555;
   text-decoration: none;
-}
-
-.github-icon {
-  fill: #24292f;
 }

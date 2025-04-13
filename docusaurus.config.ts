@@ -88,16 +88,10 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        // {
-        //   type: 'html',
-        //   position: 'right',
-        //   value: '<div><a href="https://github.com/johanesm21">Follow @johanesm21</a></div>',
-        // },
         {
+          type: 'html',
           position: 'right',
-          html: 'Follow @johanesm21',
-          href: 'https://github.com/johanesm21',
-          className: 'header-github-link',
+          value: '<a href="https://github.com/johanesm21" class="header-github-link"><img src="/img/github-mark.svg" alt="Github" width="24" height="24" style="margin-right: 0.5rem"/>Follow @johanesm21</a>',
         },
       ],
     },
