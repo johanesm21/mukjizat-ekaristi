@@ -64,13 +64,13 @@ const config: Config = {
     ],
   ],
 
-  scripts: [
-    {
-      src: 'js/buttons.js',
-      async: true,
-      defer: true,
-    },
-  ],
+  // scripts: [
+  //   {
+  //     src: '/js/buttons.js',
+  //     async: true,
+  //     defer: true,
+  //   },
+  // ],
   
   themeConfig: {
     // Replace with your project's social card
@@ -88,19 +88,16 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
+        // {
+        //   type: 'html',
+        //   position: 'right',
+        //   value: '<div><a href="https://github.com/johanesm21">Follow @johanesm21</a></div>',
+        // },
         {
           position: 'right',
-          html: '<a>Follow @johanesmistrialdo</a>',
-          href: 'https://github.com/johanesmistrialdo',
-          className: 'github-button',
-          'aria-label': 'Follow @johanesmistrialdo on GitHub',
-          'data-size': 'large',
-          'data-color-scheme': 'no-preference: dark; light: dark; dark: dark;',
-        },
-        {
-          type: 'html',
-          position: 'right',
-          value: '<a class="github-button" href="https://github.com/johanesmistrialdo" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @johanesmistrialdo on GitHub">Follow @johanesmistrialdo</a>',
+          html: 'Follow @johanesm21',
+          href: 'https://github.com/johanesm21',
+          className: 'header-github-link',
         },
       ],
     },

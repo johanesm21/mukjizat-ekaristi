@@ -28,3 +28,27 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.github-follow-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 6px 12px;
+  color: #24292f;
+  font-weight: 500;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.github-follow-button:hover {
+  background-color: #eaeef2;
+  text-decoration: none;
+}
+
+.github-icon {
+  fill: #24292f;
+}

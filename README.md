@@ -17,7 +17,16 @@ Situs ini adalah **terjemahan dan adaptasi** dari proyek dokumentasi Mukjizat Ek
 - 🕊️ Faithful to the original sources from Carlo Acutis  
 - 🌐 Built with **Docusaurus** for a clean and accessible UI  
 - 🔍 Searchable content, mobile-friendly  
-- 🇮🇩 Fully localized in Bahasa Indonesia  
+- 🇮🇩 Fully localized in Bahasa Indonesia
+
+## 📍 Roadmap
+- [ ] Tentang Carlo Acutis
+    - [ ] Siapa Carlo Acutis
+    - [ ] Perjalanan Carlo Acutis
+    - [ ] Quotes Carlo Acutis
+- [ ] Daftar Mukjizat Ekaristi
+- [x] Tombol Follow Github
+- [ ] Tombol Sponsor
 
 ## 🚀 Getting Started / Memulai Proyek
 
