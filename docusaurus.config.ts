@@ -75,6 +75,7 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Mukjizat Ekaristi',
+      hideOnScroll: true,
       logo: {
         alt: 'Mukjizat Ekaristi Logo',
         src: 'img/logo.svg',

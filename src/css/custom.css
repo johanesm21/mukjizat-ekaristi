@@ -19,6 +19,7 @@
   --ifm-footer-background-color: var(--ifm-color-primary);
   --ifm-footer-color: var(--ifm-font-color-base-inverse);
   --ifm-navbar-background-color: var(--ifm-background-color);
+  --ifm-navbar-shadow: var(--ifm-global-shadow-tl);
 }
 
 /* For dark mode */
@@ -34,6 +35,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
   --ifm-footer-background-color: var(--ifm-color-primary);
   --ifm-footer-color: var(--ifm-font-color-base-inverse);
+  --ifm-navbar-background-color: var(--ifm-background-surface-color);
+  --ifm-navbar-shadow: var(--ifm-global-shadow-tl);
 }
 
 .header-github-link {
