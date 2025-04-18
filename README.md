@@ -25,7 +25,7 @@ Situs ini adalah **terjemahan dan adaptasi** dari proyek dokumentasi Mukjizat Ek
     - [ ] Perjalanan Carlo Acutis
     - [ ] Quotes Carlo Acutis
 - [ ] Daftar Mukjizat Ekaristi
-- [ ] Tombol Follow Github
+- [x] Tombol Repositori Github
 - [ ] Tombol Sponsor
 
 ## 🚀 Getting Started / Memulai Proyek

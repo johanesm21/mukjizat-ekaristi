@@ -6,27 +6,34 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #a83232;             /* Majestic Red */
+  --ifm-color-primary-dark: #952c2c;
+  --ifm-color-primary-darker: #862828;
+  --ifm-color-primary-darkest: #6f1f1f;
+  --ifm-color-primary-light: #bb4646;
+  --ifm-color-primary-lighter: #d16666;
+  --ifm-color-primary-lightest: #e6a4a4;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(168, 50, 50, 0.1);
+  --ifm-background-color: #f2e8dc;          /* Beige background */
+  --ifm-footer-background-color: var(--ifm-color-primary);
+  --ifm-footer-color: var(--ifm-font-color-base-inverse);
+  --ifm-navbar-background-color: var(--ifm-background-color);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* For dark mode */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #e6a4a4;             /* Soft red highlight */
+  --ifm-color-primary-dark: #d38d8d;
+  --ifm-color-primary-darker: #bb6e6e;
+  --ifm-color-primary-darkest: #9f4c4c;
+  --ifm-color-primary-light: #f1bcbc;
+  --ifm-color-primary-lighter: #f9d6d6;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #1c1a1a;          /* Almost-black with warmth */
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
+  --ifm-footer-background-color: var(--ifm-color-primary);
+  --ifm-footer-color: var(--ifm-font-color-base-inverse);
 }
 
 .header-github-link {
@@ -50,6 +57,15 @@
 }
 
 .header-github-link:hover {
-  color: #2e8555;
+  color: #a83232;
   text-decoration: none;
+}
+
+.quote-block {
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-style: italic;
+  color: var(--ifm-font-color-base);
 }

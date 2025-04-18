@@ -4,5 +4,6 @@
   "compilerOptions": {
     "baseUrl": "."
   },
-  "exclude": [".docusaurus", "build"]
+  "exclude": [".docusaurus", "build"], 
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx", "docusaurus.config.ts", "docusaurus-plugin-content-docs/**/*.ts", "docusaurus-plugin-content-docs/**/*.tsx"]
 }

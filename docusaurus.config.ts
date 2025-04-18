@@ -37,10 +37,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          path: 'daftar-mukjizat',
+          routeBasePath: 'daftar-mukjizat',
         },
         blog: {
           showReadingTime: true,
@@ -83,23 +81,42 @@ const config: Config = {
       },
       items: [
         {
+          type: 'dropdown',
+          label: 'Tentang Carlo Acutis',
+          position: 'left',
+          items: [
+            {
+              label: 'Siapa Carlo Acutis?',
+              to: 'siapa-carlo-acutis',
+            },
+            {
+              label: 'Perjalanan Carlo Acutis',
+              to: 'perjalanan-carlo-acutis',
+            },
+            {
+              label: 'Quotes Carlo Acutis',
+              to: 'quotes-carlo-acutis',
+            },
+          ],
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Daftar Mukjizat',
         },
         {
           type: 'html',
           position: 'right',
-          value: '<a href="https://github.com/johanesm21" class="header-github-link"><img src="/img/github-mark.svg" alt="Github" width="24" height="24" style="margin-right: 0.5rem"/>Follow @johanesm21</a>',
+          value: '<a href="https://github.com/johanesm21/mukjizat-ekaristi" class="header-github-link"><img src="/img/github-mark.svg" alt="Github" width="24" height="24" style="margin-right: 0.5rem"/>mukjizat-ekaristi</a>',
         },
       ],
     },
     footer: {
-      style: 'dark',
+      // style: 'dark',
       links: [
       ],
-      copyright: `${new Date().getFullYear()} | Mukjizat Ekaristi | Dikelola oleh Johanes Mistrialdo`,
+      copyright: `${new Date().getFullYear()} | Mukjizat Ekaristi | Dikelola oleh Johanes Mistrialdo & Meiriska Amelia`,
     },
     prism: {
       theme: prismThemes.github,
