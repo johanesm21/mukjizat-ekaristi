@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Mukjizat Ekaristi',
   tagline: 'Terinspirasi oleh Carlo Acutis. Dihadirkan dalam Bahasa Indonesia.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/eucharist-logo.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -78,7 +78,7 @@ const config: Config = {
       hideOnScroll: true,
       logo: {
         alt: 'Mukjizat Ekaristi Logo',
-        src: 'img/logo.svg',
+        src: 'img/eucharist-logo.png',
       },
       items: [
         {
