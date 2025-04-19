@@ -109,7 +109,7 @@ const config: Config = {
         {
           type: 'html',
           position: 'right',
-          value: '<a href="https://github.com/johanesm21/mukjizat-ekaristi" class="header-github-link"><img src="/img/github-mark.svg" alt="Github" width="24" height="24" style="margin-right: 0.5rem"/>mukjizat-ekaristi</a>',
+          value: '<a href="https://github.com/johanesm21/mukjizat-ekaristi" class="header-github-link" target="_blank" rel="noopener noreferrer"><img src="/img/github-mark.svg" alt="Github" width="24" height="24" style="margin-right: 0.5rem"/>mukjizat-ekaristi</a>',
         },
       ],
     },

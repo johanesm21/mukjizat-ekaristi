@@ -10,12 +10,12 @@ export default function SiapaCarloAcutis() {
           <Heading as="h1" className="hero__title">
             Siapa Carlo Acutis?
           </Heading>
-          <p className="hero__subtitle">Biografi Carlo Acutis</p>
+          <p className="hero__subtitle">Seorang anak muda dengan hidup sederhana namun hati yang besar bagi Tuhan dan sesama</p>
         </div>
       </header>
       <main>
         <section>
-          <div className='container margin-vert--xl'>
+          <div className='container margin-vert--lg'>
             <p>
               Meskipun mungkin orang mengira bahwa seorang remaja yang dicalonkan untuk kemuliaan altar adalah seseorang yang luar biasa, <b>Carlo adalah seorang anak muda yang benar-benar biasa</b>, seperti kebanyakan teman sebayanya. Namun, ia memiliki keharmonisan yang sangat istimewa berkat <b>persahabatannya yang mendalam dengan Yesus</b>.
             </p>
@@ -57,7 +57,7 @@ export default function SiapaCarloAcutis() {
               Bagi Carlo:
             </p>
             <blockquote className='quote-block'>
-              "<b>Ekaristi adalah jalan tolku menuju Surga</b>," dan juga sarana paling kuat untuk cepat menjadi kudus.
+              "<b>Ekaristi adalah jalan tol menuju Surga</b>," dan juga sarana paling kuat untuk cepat menjadi kudus.
             </blockquote>
             <p>
               Carlo juga terkenal dengan ucapannya yang luar biasa:
