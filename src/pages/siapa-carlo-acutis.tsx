@@ -16,6 +16,9 @@ export default function SiapaCarloAcutis() {
       <main>
         <section>
           <div className='container margin-vert--xl'>
+            <p className='centerized'>
+              <img src="/img/carlo-acutis.jpg" alt="carlo-acutis"/>
+            </p>
             <p>
               Meskipun mungkin orang mengira bahwa seorang remaja yang dicalonkan untuk kemuliaan altar adalah seseorang yang luar biasa, <b>Carlo adalah seorang anak muda yang benar-benar biasa</b>, seperti kebanyakan teman sebayanya. Namun, ia memiliki keharmonisan yang sangat istimewa berkat <b>persahabatannya yang mendalam dengan Yesus</b>.
             </p>
