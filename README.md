@@ -64,5 +64,5 @@ Project ini adalah sebagai upaya pengabdian dan penyebarluasan Mukjizat Ekaristi
 Karena keterbatasan karya asli, beberapa hal dalam web ini termasuk gambar, terjemahan, penggambaran, dsb. mungkin dihasilkan oleh AI.
 
 ## 💖 Inspiration
-> “To live with Jesus, for Jesus, and in Jesus.”
+> “Not me, but God”
 > — Blessed Carlo Acutis

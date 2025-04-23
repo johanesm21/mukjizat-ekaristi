@@ -15,7 +15,7 @@ export default function SiapaCarloAcutis() {
       </header>
       <main>
         <section>
-          <div className='container margin-vert--xl'>
+          <div className='container margin-vert--lg'>
             <p className='centerized'>
               <img src="/img/carlo-acutis.jpg" alt="carlo-acutis"/>
             </p>
